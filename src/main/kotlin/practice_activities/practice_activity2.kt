@@ -27,7 +27,7 @@ fun main() {
     println("Enter Grade in Filipino: ")
     var filipino : Double = readln().toDouble()
 
-    var ave : Double = (math + english + filipino) / 2
+    var ave : Double = (math + english + filipino) / 3
 
     println("Average Grade is: " + String.format("%.2f", ave).toDouble())
 }
