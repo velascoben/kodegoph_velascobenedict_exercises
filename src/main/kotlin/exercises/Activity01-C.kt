@@ -1,4 +1,7 @@
 package exercises
+
+import java.util.*
+
 fun main() {
     /*
 
@@ -11,6 +14,19 @@ fun main() {
     Use the proper data types.
 
      */
+
+    // ------------------------------------------- DECLARATIONS ------------------------------- //
+
+    var invCode : Int = 0
+    var invCategoryCode : String = ""
+    var invCount : Int = 0
+    var invCountLow : Boolean = false
+    var datePurchased : Date
+
+    // ------------------------------------------- DECLARATIONS END ------------------------------- //
+
+
+
 
     var fruits : String = "FRUITS: \n F1 - Apple \n F2 - Orange \n F3 - Banana"
     var cereals : String = "CEREALS: \n C1 - Coco Crunch \n C2 - FruitLoops \n C3 - Cocoa Puffs"
