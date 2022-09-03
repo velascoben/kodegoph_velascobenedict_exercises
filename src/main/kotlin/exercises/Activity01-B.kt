@@ -1,4 +1,7 @@
 package exercises
+
+import java.util.Date
+
 fun main() {
     /*
 
@@ -10,6 +13,22 @@ fun main() {
     Use the proper data types.
 
      */
+
+    // ------------------------------------------- DECLARATIONS ------------------------------- //
+
+    var bookCode : Int = 0
+    var bookCategoryCode : String = ""
+    var bookTitle : String = ""
+    var bookBorrowed : Boolean = false
+    var dateBorrowed : Date
+    var dateReturned : Date
+
+    // ------------------------------------------- DECLARATIONS END ------------------------------- //
+
+
+
+    // ------------------------------------------- INITIAL UNDERSTANDING ------------------------------- //
+
 
     var horror : String = "HORROR: \n H1 - Halloween \n H2 - Friday the 13th"
     var fantasy : String = "FANTASY: \n F1 - Harry Potter and the Sorcerer's Stone \n F2 - Harry Potter and the Goblet of Fire"
