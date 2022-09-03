@@ -1,3 +1,4 @@
+package exercises
 fun main() {
     /*
 
@@ -32,6 +33,7 @@ fun main() {
     println("You have chosen Student$studentChosen: ")
     println("Enter grade for Week4: ")
     var upgrade : String = readln()
+
 
 
 
