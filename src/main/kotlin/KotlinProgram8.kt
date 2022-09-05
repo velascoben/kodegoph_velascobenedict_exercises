@@ -2,13 +2,13 @@ fun main() {
     // while loop
     // init
 
-    var ctr : Int = 5
+    var ctr: Int = 1
 
-    // condition
+    do {
 
-    while(ctr <= 5) {
-        println("Hello World! $ctr")
+        println("Hello World!")
         // update
-        ctr--
-    }
+        ctr++
+
+    }while (ctr <= 5) // condition
 }
