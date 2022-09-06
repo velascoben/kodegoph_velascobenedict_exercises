@@ -25,8 +25,29 @@ fun main() {
 
     // ------------------------------------------- DECLARATIONS END ------------------------------- //
 
-    println("Enter amount:")
-    amount = readln().toDouble()
+    do {
+
+        println("Enter amount:")
+        amount = readln().toDouble()
+
+        amount += amount
+
+        println("Do you want to add another amount? ")
+        again = readln()
+
+    }
+    while (again == "Yes")
+
+    println("Divide the value by how many?")
+    divideBy = readln().toInt()
+
+    total = amount / divideBy
+
+    println("The result is $total")
+
+
+
+
 
 
 
