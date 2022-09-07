@@ -1,7 +1,7 @@
 fun main() {
     // Implicit Declaration
     // Array Size           0       1       2
-    val names = arrayOf("John", "Paul", "Mark")
+    var names = arrayOf("John", "Paul", "Mark")
     println(names[0])
 
     // Explicit Declaration
@@ -10,5 +10,14 @@ fun main() {
 
     // Array Size
     println(numbers.size)
-
+    println("@@@@@@@@@@@@@@@")
+    println(names[0])
+    println(names[1])
+    println(names[2])
+    println("@@@@@@@@@@@@@@@")
+    names.set(1, "Matthew")
+    println("@@@@@@@@@@@@@@@")
+    println(names.get(0))
+    println(names.get(1))
+    println(names.get(2))
 }
