@@ -3,16 +3,16 @@ fun main() {
     //var myObject = myClass("Hello World")
 
     println("Enter anything: ")
-    var myObject = myGenericClass(readln())
+    MyGenericClass(readln())
 
 }
 
-class myGenericClass<T>(value : T){
+class MyGenericClass<T>(value : T){
     init {
-        println(value.toString().length)
+        println(value.toString())
     }
 }
-class myClass(value : String) {
+class MyClass(value : String) {
     init {
         println(value)
     }
