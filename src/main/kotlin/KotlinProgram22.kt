@@ -10,7 +10,11 @@ fun main() {
 //
 //    println("The cube is ${number2 * number2 * number2}")
 
-    displayMessage(readln())
+    println("Enter your name: ")
+    var name : String = readln()
+    println("Enter your age: ")
+    var age : Int = readln().toInt()
+    displayNameAndAge(name, age)
 
 }
 
@@ -24,6 +28,12 @@ fun displayName() : Unit {
 // No Return, With Parameter
 fun displayMessage(msg : String) : Unit {
     println("The message is $msg")
+}
+
+// No Return, With 2 Parameters
+fun displayNameAndAge(name : String, age : Int) : Unit {
+    println("Your name is $name")
+    println("Your age is $age")
 }
 
 // Function ->  Methods ->  Stored Procedures   -> Sub Procedure
