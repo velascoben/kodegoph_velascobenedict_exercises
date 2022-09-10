@@ -19,36 +19,30 @@ fun main() {
     // ------------------------------------------- DECLARATIONS ------------------------------- //
 
     var amount : Double = 0.00
-    var divideBy : Int = 0
-    var again : String = ""
+    var divideBy : Double = 0.00
+    var again : String = "YES"
+    var sum : Double = 0.00
     var total : Double = 0.00
 
     // ------------------------------------------- DECLARATIONS END ------------------------------- //
-
-    do {
+    while (again == "YES") {
 
         println("Enter amount:")
         amount = readln().toDouble()
 
-        amount += amount
+        sum += amount
 
-        println("Do you want to add another amount? ")
-        again = readln()
+        println("Do you want to add another amount to $sum? YES or NO?")
+        again = readln().uppercase()
 
     }
-    while (again == "Yes")
 
     println("Divide the value by how many?")
-    divideBy = readln().toInt()
+    divideBy = readln().toDouble()
 
-    total = amount / divideBy
+    total = sum / divideBy
 
     println("The result is $total")
-
-
-
-
-
 
 
 }
