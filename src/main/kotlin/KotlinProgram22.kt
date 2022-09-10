@@ -27,7 +27,7 @@ fun displayName() : Unit {
 
 // No Return, With Parameter
 fun displayMessage(msg : String) : Unit {
-    println("The message is $msg")
+    println("The message is \"$msg\"")
 }
 
 // No Return, With 2 Parameters
