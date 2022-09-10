@@ -41,15 +41,6 @@ fun main() {
     println("\n Choose the book to borrow: ")
     var bookChosen : String = readln()
 
-
-
-
-
-
-
-
-
-
     if (bookChosen == "H1") {
         println("Title: Halloween")
         println("Genre: Horror")
