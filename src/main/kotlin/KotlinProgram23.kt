@@ -14,5 +14,6 @@ fun cube(number : Int) : Int {
 }
 
 fun add(number1 : Int, number2 : Int) : Int {
+    println("Welcome to the Add Function!")
     return number1+number2
 }
