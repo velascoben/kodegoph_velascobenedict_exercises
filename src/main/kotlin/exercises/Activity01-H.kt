@@ -30,7 +30,7 @@ fun main() {
 
     var books = ArrayList<String>()
     var genre = ArrayList<String>()
-    var plot = ArrayList<String>()
+    var status = ArrayList<String>()
 
     books.add("Halloween")
     books.add("Friday the 13th")
@@ -44,11 +44,11 @@ fun main() {
     genre.add("Fantasy")
     genre.add("General Information")
 
-    plot.add("Available")
-    plot.add("Available")
-    plot.add("Available")
-    plot.add("Available")
-    plot.add("Borrowed")
+    status.add("Available")
+    status.add("Available")
+    status.add("Available")
+    status.add("Available")
+    status.add("Borrowed")
 
     while (again == true) {
 
@@ -71,7 +71,7 @@ fun main() {
                 println("[${ctr+1}]")
                 println("${books[ctr]}")
                 println("${genre[ctr]}")
-                println("${plot[ctr]}")
+                println("${status[ctr]}")
                 ctr++
             }
 
@@ -93,7 +93,7 @@ fun main() {
             println("\nEnter Borrower's Address: ")
             borrowerAddress = readln()
 
-            plot.set(itemNumber - 1, "Borrowed")
+            status.set(itemNumber - 1, "Borrowed")
 
             println("\nBOOK SUCCESSFULLY BORROWED!")
 
@@ -106,7 +106,7 @@ fun main() {
             println("Title: ${books[itemNumber - 1]}")
             println("Genre: ${genre[itemNumber - 1]}")
 
-            plot.set(itemNumber - 1, "Available")
+            status.set(itemNumber - 1, "Available")
 
             println("\nBOOK SUCCESSFULLY RETURNED!")
 
