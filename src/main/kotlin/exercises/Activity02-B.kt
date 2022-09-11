@@ -2,9 +2,9 @@ package exercises
 fun main() {
     /*
 
-    Activity 02 - A
+    Activity 02 - B
 
-    Implement Activity 01 -  A using data structure.
+    Implement Activity 01 -  B using data structure.
 
      */
 
