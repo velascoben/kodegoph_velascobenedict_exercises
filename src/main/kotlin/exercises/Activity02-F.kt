@@ -17,9 +17,9 @@ var category = arrayOf<String>("Fruits","Fruits","Fruits","Cereals","Cereals","C
 fun main() {
     /*
 
-    Activity 02 - C
+    Activity 02 - F
 
-    Implement Activity 01 - C using data structure.
+    Implement Activity 02 - C using Classes.
 
      */
 
