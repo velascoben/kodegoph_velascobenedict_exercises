@@ -17,7 +17,7 @@ fun main() {
     // Student Data
     var students = arrayOf<String>("Ben","John","Michael")
 
-    // Final Grades - A, B, C, D
+    // Final Grades
     var studentFinalGrade = arrayOf<Double>(0.00,0.00,0.00)
     var studentMonth1Grade = arrayOf<Double>(0.00,0.00,0.00)
     var studentMonth2Grade = arrayOf<Double>(0.00,0.00,0.00)
