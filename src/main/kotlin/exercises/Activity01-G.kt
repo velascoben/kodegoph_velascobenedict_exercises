@@ -15,10 +15,42 @@ fun main() {
 
     var number1 : Int = 0
     var number2 : Int = 0
+    var lowNum : Int = 0
+    var highNum : Int = 0
 
     // ------------------------------------------- DECLARATIONS END ------------------------------- //
 
+    println("Enter 1st Number: ")
+    number1 = readln().toInt()
 
+    println("Enter 2nd Number: ")
+    number2 = readln().toInt()
 
+    if(number1 > number2) {
+        lowNum = number2 + 1
+        highNum = number1
+    } else {
+        lowNum = number1 + 1
+        highNum = number2
+    }
+
+    while (lowNum < highNum) {
+        var flag = false // initial value
+
+        for (i in 2..lowNum / 2) {
+            //println("$i  $lowNum")
+            // condition for Non-Prime number
+            if (lowNum % i == 0) {
+                flag = true // flag if number is prime
+                break
+            }
+        }
+
+        if (!flag)  { //
+            print("$lowNum ")
+        }
+
+        ++lowNum
+    }
 
 }
