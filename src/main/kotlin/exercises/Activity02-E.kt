@@ -16,9 +16,9 @@ var status = arrayOf<String>("Borrowed","Available","Available","Available","Ava
 fun main() {
     /*
 
-    Activity 02 - B
+    Activity 02 - E
 
-    Implement Activity 01 -  B using data structure.
+    Implement Activity 02 - B using Classes.
 
      */
 
