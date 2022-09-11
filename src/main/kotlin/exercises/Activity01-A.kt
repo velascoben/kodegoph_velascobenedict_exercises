@@ -91,15 +91,6 @@ fun main() {
     var upgrade : String = readln()
 
 
-
-
-
-
-
-
-
-
-
     if(studentChosen == "1") {
         student1 = "Week1 = 95, Week2 = 90, Week3 = 92, Week 4 = $upgrade"
     } else if(studentChosen == "2") {
