@@ -34,7 +34,7 @@ fun main() {
         println("Choose:")
         println("[1] Show Enrolled Students'")
         println("[2] Show Students' Grades")
-        println("[3] Updates Students' Grades")
+        println("[3] Update Students' Grades")
         println("[x] Exit System")
 
         print("Answer: ")
