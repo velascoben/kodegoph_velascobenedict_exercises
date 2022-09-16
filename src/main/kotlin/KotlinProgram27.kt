@@ -1,13 +1,11 @@
 fun main() {
-    var joe = Person("Joe",21) // Instantiation
-    println("*************")
-    println("${joe.name}'s current age is ${joe.age}")
-    println("After 1 year...")
-    joe.ageUp()
-    println("${joe.name}'s current age is ${joe.age}")
+    var anne = Person(20)
+    anne.age = 25
+    anne.displayAge()
+
 }
 
-class Person(var name : String, var age : Int) { // Constructor
+class Person(var name : String, var age : Int) { // Constructor ->primary constructor
 
     init {
 
@@ -16,6 +14,9 @@ class Person(var name : String, var age : Int) { // Constructor
         println("Age is $age")
 
     }
+
+    constructor(name : String) : this(name,0){} // -> Secondary Constructor
+    constructor(age : Int) : this("default_name",age){}
 
     fun walk() {
         println("A person walks")
@@ -26,6 +27,7 @@ class Person(var name : String, var age : Int) { // Constructor
     }
 
     fun displayAge(){
+        //var age : Int = 7
         println(age)
     }
 
