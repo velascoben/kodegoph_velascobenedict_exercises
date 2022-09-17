@@ -24,7 +24,9 @@ fun main() {
         } else {
             mobile = Mobile(input)
         }
-        mobile.currentBatteryLevel = 90
+        println("Enter current battery level: ")
+        var batteryLevelNow = readln().toInt()
+        mobile.currentBatteryLevel = batteryLevelNow
         println("Add to Battery:")
         var battery = readln().toInt()
         println("Battery Level: ${mobile.currentBatteryLevel}")
