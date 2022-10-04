@@ -1,4 +1,7 @@
 package exercises.library
 
-class Process {
+abstract class Process {
+
+    abstract fun listBooks()
+
 }
